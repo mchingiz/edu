@@ -92,7 +92,8 @@ function CloseCollapseNavbar(){
 }
 var i=0;
 function CloseCollapseNavbarWithoutEffect(){
-  
+
+
   $("#navbar-collapse .navbar-nav li .dropdown-menu").slideUp()
   $("body").css("left","0");
   $("#navbar .navbar-nav li .dropdown-menu").removeClass("dropdown-menu-open")

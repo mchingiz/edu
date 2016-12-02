@@ -3,7 +3,8 @@
   #company-info{
     .img-box{
       img{
-        width:100%;
+        max-width:100%;
+        max-height: 200px;
       }
     }
     h4{
